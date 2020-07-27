@@ -1,4 +1,4 @@
-# Text-Extractor
+# TextExtractor
 Webapp that finds most common names mentioned in a text file and their frequency.
 
 # Overview
@@ -6,8 +6,8 @@ This application is designed to recieve a text file such as a move script, artic
 Parse through the file extracting a list of all of the people mentioned in the file and displaying the most frequently mentioned.
 
 # How to install
-1. Clone this repository `https://github.com/mikemiller145/Text-Extractor.git`.
-2. Create virtual environment: `python -m venv Text-Extractor\venv`.
+1. Clone this repository `https://github.com/mikemiller145/TextExtractor.git`.
+2. Create virtual environment: `python -m venv TextExtractor\venv`.
 3. Activate virtual environment: `TextExtractor\venv\Scripts\activate.bat`.
 4. Once the virtual envoronment is active, install the required packages from `Text-Extractor\TextExtractor\requirements.txt`.
 5. Like this `pip install -r TextExtractor\TextExtractor\requirements.txt`.
@@ -16,7 +16,7 @@ Parse through the file extracting a list of all of the people mentioned in the f
 
 8. This project is not connected to a database.
 9. The virtual environment has msqlclient already installed, but you connect any databse of your choice.
-10. To establish database connection edit `Text-Extractor\TextExtractor\TextExtractor\settings.py`, go to the Django documentation for more detail.
+10. To establish database connection edit `TextExtractor\TextExtractor\TextExtractor\settings.py`, go to the Django documentation for more detail.
 11. Then once the database is setup run `manage.py makemigrations` and then `manage.py migrate` to create the correct tables
 12. You should be good to go! :)
 

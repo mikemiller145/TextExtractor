@@ -1,0 +1,21 @@
+{% extends 'interpreter/main.html' %}
+
+{% block content %}
+{% load static %}
+<script src="{% static '/js/createChart.js' %}"></script>
+        <div style="max-width: 1200px; margin: auto; padding: 20px; background-color: rgb(238, 238, 238);">
+            <div class="container-fluid" id="container">
+                <h1>Choose a File to Analyze:</h1>
+            <form enctype="multipart/form-data" method="POST">
+                 {% csrf_token %}
+                <div class="mx-auto" style="width: 500px;" >
+                    {{form.title}}
+                    {{form.file}}
+                    <button class="btn btn-lg btn-block btn-outline-light" style="background-color: #f07511; padding: 5px;" type="submit">Upload</button>
+                </div>
+            </form>
+                <div id="charts"></div>
+            </div>
+        </div>
+<script>extractData({{json|safe}}, {{title|safe}})</script>
+{% endblock %}

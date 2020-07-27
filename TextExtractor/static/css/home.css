@@ -1,0 +1,31 @@
+{% load static %}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image1 {
+  /* The image used */
+  background-image: url("/static/media/images/MovieScripts.jpeg");
+
+  /* Add the blur effect */
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.95;
+}
+#container{
+    opacity : 1;
+
+}

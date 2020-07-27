@@ -1,0 +1,30 @@
+{% extends 'interpreter/main.html' %}
+
+{% block content %}
+{% load static %}
+
+<script src="{% static '/js/createChart.js' %}"></script>
+      <div style="max-width: 1200px; margin: auto; padding: 20px; background-color: white;">
+        <div class="container-fluid" >
+            <h1>General</h1>
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Dashboard</h1>
+                <div class="dropdown mb-2 mb-md-0">
+                <h5>Sort By:&nbsp</h5>
+                <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" onclick="Old()">Old</a>
+                    <a class="dropdown-item" onclick="New()">Recent</a>
+                  </div>
+                </div>
+            </div>
+            <div id="charts"></div>
+            </div>
+
+        </div>
+<script>
+extractData({{json|safe}}, {{title|safe}});
+</script>
+{% endblock %}

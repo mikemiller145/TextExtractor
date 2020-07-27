@@ -8,9 +8,9 @@ Parse through the file extracting a list of all of the people mentioned in the f
 # How to install
 1. Clone this repository `https://github.com/mikemiller145/Text-Extractor.git`.
 2. Create virtual environment: `python -m venv Text-Extractor\venv`.
-3. Activate virtual environment: `Text-Extractor\venv\Scripts\activate.bat`.
+3. Activate virtual environment: `TextExtractor\venv\Scripts\activate.bat`.
 4. Once the virtual envoronment is active, install the required packages from `Text-Extractor\TextExtractor\requirements.txt`.
-5. Like this `pip install -r Text-Extractor\TextExtractor\requirements.txt`.
+5. Like this `pip install -r TextExtractor\TextExtractor\requirements.txt`.
 6. One of the packages: `spacy` requires a model: `en_core_web-sm` to run properly.
 7. To load this model type: `python -m spacy download en_core_web_sm`.
 

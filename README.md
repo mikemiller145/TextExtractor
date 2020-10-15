@@ -22,7 +22,7 @@ Parse through the file extracting a list of all of the people mentioned in the f
 
 # What I Learned
 1. Django Framework
-2. PostgreSQL
+2. MySQL
 3. Sending data in transit(JSON)
 4. More experience with HTML, CSS, and JS
 

@@ -20,4 +20,9 @@ Parse through the file extracting a list of all of the people mentioned in the f
 11. Then once the database is setup run `manage.py makemigrations` and then `manage.py migrate` to create the correct tables
 12. You should be good to go! :)
 
+# What I Learned
+1. Django Framework
+2. PostgreSQL
+3. Sending data in transit(JSON)
+4. More experience with HTML, CSS, and JS
 

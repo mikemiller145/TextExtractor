@@ -27,3 +27,4 @@ Parse through the file extracting a list of all of the people mentioned in the f
 4. More experience with HTML, CSS, and JS
 
 <img width="1907" alt="Text Extractor" src="https://user-images.githubusercontent.com/59183687/96820588-4e355c80-13f4-11eb-8e2a-b7dd4086d1cf.PNG">
+<img width="979" alt="Login" src="https://user-images.githubusercontent.com/59183687/96820958-02cf7e00-13f5-11eb-95ab-fb7fa109f3b1.PNG">
